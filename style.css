@@ -3,7 +3,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color:hsl(295, 64%, 53%);
+    background-color:rgb(255, 161, 245);
     font-family: Oswald,Dosis, sans-serif ;
 }
 
@@ -15,7 +15,7 @@ body{
     min-height: 40vh;
     width: 60vh;
     padding: 20px 30px;
-    background-color: hsl(0, 5%, 84%);
+    background-color: rgb(248, 255, 149);
     border-radius: 10px;
     box-shadow: 10px 10px 40px hsl(0, 1%, 20%);
 }
@@ -36,10 +36,11 @@ p{
     text-align: center;
     font-size: 20px;
     color: hsl(295, 49%, 70%);
-    background-color: hsl(0, 1%, 20%);
+    background-color: rgb(166, 255, 150);
     padding-bottom: 0.4rem;
+    transition: 0.5s ease;
 }
 
-#genJoke:hover{
-    background-color: hsl(0, 2%, 25%);
+#btn:hover{
+    background-color: rgb(188, 122, 249);
 }
