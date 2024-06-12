@@ -44,6 +44,7 @@ p{
     background-color: rgb(255, 182, 217);
     padding-bottom: 0.4rem;
     transition: 0.5s ease;
+    cursor: pointer;
 }
 
 #btn:hover{
